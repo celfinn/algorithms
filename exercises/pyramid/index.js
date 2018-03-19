@@ -14,6 +14,23 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+function pyramid (n) {
+  const size = n + (n - 1)
+  let result = ''
+  for (let i = 0; i < n; i++) {
+    if (i === 0) {
+      result += '#'
+    } else {
+      result += '##'
+    }
 
-module.exports = pyramid;
+    if (result.length === size) {
+      console.log(result)
+    } else {
+      const initialPad = Math.floor((size - result.length) / 2 + result.length)
+      console.log(result.padStart(initialPad).padEnd(size))
+    }
+  }
+}
+
+module.exports = pyramid
