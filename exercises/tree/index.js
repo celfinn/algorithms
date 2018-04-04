@@ -14,4 +14,4 @@ class Node {}
 
 class Tree {}
 
-module.exports = { Tree, Node };
+module.exports = { Tree, Node }

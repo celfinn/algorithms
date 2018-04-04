@@ -39,4 +39,3 @@ test('"marcel" is not palindrome', () => {
 test('"apos a sopa" a palindrome', () => {
   expect(palindrome('apos a sopa')).toBeTruthy()
 })
-

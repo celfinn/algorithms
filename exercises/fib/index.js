@@ -62,7 +62,6 @@ module.exports = fib
 //   return result[n]
 // }
 
-
 // function fib (n) {
 //   if (n < 2) {
 //     return n

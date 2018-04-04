@@ -131,7 +131,6 @@ module.exports = matrix
 //   return result
 // }
 
-
 // function matrix (n) {
 //   const result = []
 

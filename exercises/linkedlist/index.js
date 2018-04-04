@@ -6,4 +6,4 @@ class Node {}
 
 class LinkedList {}
 
-module.exports = { Node, LinkedList };
+module.exports = { Node, LinkedList }

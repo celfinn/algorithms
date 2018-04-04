@@ -59,7 +59,6 @@ module.exports = anagrams
 //   return true
 // }
 
-
 // function anagrams (stringA, stringB) {
 //   if (stringA.length !== stringB.length) {
 //     return false
